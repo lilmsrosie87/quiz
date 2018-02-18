@@ -24,7 +24,11 @@ var questions = [
 	question: "What three districts were known as 'the careers'?",
 	answer: [" District 13 ", "District 3 ", " The Capital ", " District 6 "],
 	correct: "District 3"
-}
+},
+{
+	question: "What did Peeta through towards Katniss on that rainy day she saw the dandilions?",
+	answer: [" bread ", " basketball ", " advice ", " a coin from the Capital "],
+	correct: "bread"
 ]
 
 console.log[2]
