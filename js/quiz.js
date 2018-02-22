@@ -29,6 +29,10 @@ var questions = [
 	question: "What did Peeta through towards Katniss on that rainy day she saw the dandilions?",
 	answer: [" bread ", " basketball ", " advice ", " a coin from the Capital "],
 	correct: "bread"
+},
+	question: "Who is the only person Katnis is certain that she loves?",
+	answer: [" Peeta ", " Prim ", " Gayle ", " her mother "],
+	correct: "Prim"
 }
 ]
 
