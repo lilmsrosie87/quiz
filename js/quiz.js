@@ -1,4 +1,4 @@
-// questions for quiz
+// questions for quiz (week 10)
 var questions = [
 {
 	question: "What district did Katnis Everden represent at the 74th Hunger Games?",
