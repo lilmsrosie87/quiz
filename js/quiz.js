@@ -40,4 +40,14 @@ var questions = [
 // this is the attribute used to start quiz (activates onlick() in questionnaire)
 var questionnaire = getElementById('questionnaire');
 
-function startGame()
+function startGame() {
+	// clears previous HTML
+	questionnaire.innerHTML = " ";
+	
+	// centers questions in quiz
+	questionnaire.style.margin = "12% auto";
+	
+	// load 1st question
+	createQuestion();
+};
+	
