@@ -51,3 +51,12 @@ function startGame() {
 	createQuestion();
 };
 	
+var createQuestion() {
+	// clears previous HTML
+	questionnaire.innerHTML = "";
+	
+// loop
+for (var i = 0; i < i++) {
+	
+	var 
+	
