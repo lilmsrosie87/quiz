@@ -38,7 +38,7 @@ var questions = [
 
 
 // this is the attribute used to start quiz (activates onlick() in questionnaire)
-var questionnaire = getElementById('questionnaire');
+var questionnaire = getElementById("questionnaire");
 
 function startGame() {
 	// clears previous HTML
@@ -58,5 +58,12 @@ var createQuestion() {
 // loop
 for (var i = 0; i < i++) {
 	
-	var 
+	// elements that will be created when page loads
+	var formGroup = document.createElement("div");
+	var questionEl = document.createElement("h2");
 	
+	// attributes that will be added to elements above
+	formGroup.className = "formGroup";
+	questionEl.id = "questions" + [i];
+	
+	// will create text for question
