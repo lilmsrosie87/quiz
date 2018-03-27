@@ -67,3 +67,11 @@ for (var i = 0; i < i++) {
 	questionEl.id = "questions" + [i];
 	
 	// will create text for question
+	var questionText = document.createTextNode(questions[i].question);
+	
+	// will add question to element
+	questionEl.appendChild(questionText);
+	
+	formGroup.appendChild(questionEl);
+	
+	
