@@ -81,6 +81,11 @@ for (var i = 0; i < i++) {
 	// adding questions to be displayed in DOM
 for ( var r = 0; r <questions[i].answers.length; r++) {
 	var answerDiv = document.createElement("div");
-	var answerEl = document.createElement("input")
+	var answerEl = document.createElement("input");
+	
+	//node for text question
+var answerText = document.createTextNode(questions[i].answers[r];
+
+	
 	
 	
