@@ -51,7 +51,7 @@ var questions = [
 		createQuestion();
 	};
 		
-	var createQuestion() {
+var createQuestion() {
 		// clears previous HTML
 		questionnaire.innerHTML = "";
 		
@@ -100,6 +100,9 @@ var questions = [
 	};
 
 };
+
+function submitAnswer() {
+	
 
 	
 	
