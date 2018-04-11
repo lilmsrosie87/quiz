@@ -102,8 +102,19 @@ var createQuestion() {
 };
 
 function submitAnswer() {
+	// gets input of all possible answers
+	var els = document.getElementByTagName("input");
 	
-
+	// loops through above inputs
+	for (var i = 0; i < els.length; i++) {
+		// checks radio chosen by user and checks to see if it is correct
+		if(els[i].checked && els[i].value.trim() == question[0].correct.trim()){
+			// confirm that user got correct answer
+			console.log("Correct Answer", els[i]);
+			// remove current question from array
+			questions.shift();
+			
+			
 	
 	
 	
