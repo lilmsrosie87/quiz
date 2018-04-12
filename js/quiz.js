@@ -113,6 +113,9 @@ function submitAnswer() {
 			console.log("Correct Answer", els[i]);
 			// remove current question from array
 			questions.shift();
+	els[i].parentElement.className = "questionWrap right";
+	
+	
 			
 			
 	
