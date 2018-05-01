@@ -123,6 +123,22 @@ function submitAnswer() {
 	// will check to see if there are any questions left. If 0, then Game Over
 	if(questions.length ==) {
 		
+		// will clear any HTML
+		questionForm.innerHTML = "";
+		
+		// updates questionForm style
+		questionForm.textAlign = "center";
+		questionForm.style.margin = "0 auto";
+		
+		
+		questionForm.innerHTML = "<h1> Good Job!You've completed the quiz!"</h1> + <br> + <img src= "img/capitolSeal.jpg">";
+		
+		return;
+		
+	};
+	
+		
+		
 		
 	
 	
