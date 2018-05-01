@@ -116,7 +116,14 @@ function submitAnswer() {
 			console.log("Correct Answer", els[i]);
 			// remove current question from array
 			questions.shift();
+			
+			// find parent and add class of right
 	els[i].parentElement.className = "questionWrap right";
+	
+	// will check to see if there are any questions left. If 0, then Game Over
+	if(questions.length ==) {
+		
+		
 	
 	
 			
