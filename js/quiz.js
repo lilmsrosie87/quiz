@@ -130,12 +130,21 @@ function submitAnswer() {
 		questionForm.textAlign = "center";
 		questionForm.style.margin = "0 auto";
 		
+		// displayed when quiz is over
+		questionForm.innerHTML = "<h1> Good Job!You've completed the quiz!</h1> + <br> + <img src= 'img/capitolSeal.jpg'>";
 		
-		questionForm.innerHTML = "<h1> Good Job!You've completed the quiz!"</h1> + <br> + <img src= "img/capitolSeal.jpg">";
-		
+		// stops function when user wins
 		return;
 		
 	};
+	
+	// if user gets correct answer and there are more questions, move to next questions
+	setTimeout(function() {
+		createQuestion()();
+	} 2000);
+	
+	// stops functions if user is correct
+	return;
 	
 		
 		
