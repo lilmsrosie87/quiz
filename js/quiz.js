@@ -146,6 +146,17 @@ function submitAnswer() {
 	// stops functions if user is correct
 	return;
 	
+		};
+		
+	};
+	// confirms that user got incorrect answer
+	console.log("Incorrect answer");
+	
+	for(var i = 0; i < els.length; i++) {
+		if
+	
+	
+	
 		
 		
 		
