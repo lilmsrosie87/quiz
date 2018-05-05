@@ -30,10 +30,12 @@ var questions = [
 		answer: [" bread ", " basketball ", " advice ", " a coin from the Capital "],
 		correct: "bread"
 	},
+	{
 		question: "Who is the only person Katnis is certain that she loves?",
 		answer: [" Peeta ", " Prim ", " Gayle ", " her mother "],
 		correct: "Prim"
 	}
+	
 ];
 
 
