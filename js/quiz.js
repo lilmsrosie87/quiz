@@ -78,7 +78,7 @@ var createQuestion() {
 		formGroup.appendChild(questionEl);
 		
 		// will add formGroup to questionForm
-		questionForm.appendChild(formGroup);
+		questionaire.appendChild(formGroup);
 		
 		// adding questions to be displayed in DOM
 	for ( var r = 0; r <questions[i].answers.length; r++) {
