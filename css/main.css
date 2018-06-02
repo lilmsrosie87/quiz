@@ -2,3 +2,8 @@
 	color: pink;
 	font-color: black;
 }
+
+button {
+	color: grey;
+	font: 12px;
+}

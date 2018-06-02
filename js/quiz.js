@@ -143,7 +143,7 @@ function submitAnswer() {
 	// if user gets correct answer and there are more questions, move to next questions
 	setTimeout(function() {
 		createQuestion();
-	} 2000);
+	}, 2000);
 	
 	// stops functions if user is correct
 	return;
@@ -158,10 +158,10 @@ function submitAnswer() {
 	for(var i = 0; i < els.length; i++) {
 		
 		// finds current radio checked
-		if (els.[i].checked) {
+		if (els[i].checked) {
 			
 		// finds parent and adds 'wrong' .class
-		els.[i].parentElement.className = "questionWrap wrong";
+		els[i].parentElement.className = "questionWrap wrong";
 		
 		};
 	};
