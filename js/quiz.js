@@ -53,12 +53,12 @@ var questions = [
 		createQuestion();
 	};
 		
-var createQuestion() {
+function createQuestion() {
 		// clears previous HTML
 		questionnaire.innerHTML = "";
 		
 	// loop
-	for (var i = 0; i < i++) {
+	for (var i = 0; i < 1; i++) {
 		
 		// elements that will be created when page loads
 		var formGroup = document.createElement("div");
