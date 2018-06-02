@@ -86,7 +86,7 @@ function createQuestion() {
 		var answerEl = document.createElement("input");
 		
 		//node for text question
-	var answerText = document.createTextNode(questions[i].answers[r)];
+	var answerText = document.createTextNode(questions[i].answers[r]);
 
 	answerDiv. appendChild(answerEl);
 	answerDiv.appendChild(answerText);
@@ -112,7 +112,7 @@ function submitAnswer() {
 		// 
 		
 		
-		checks radio chosen by user and checks to see if it is correct
+		// checks radio chosen by user and checks to see if it is correct
 		if(els[i].checked && els[i].value.trim() == question[0].correct.trim()){
 			// confirm that user got correct answer
 			console.log("Correct Answer", els[i]);
@@ -123,7 +123,7 @@ function submitAnswer() {
 	els[i].parentElement.className = "questionWrap right";
 	
 	// will check to see if there are any questions left. If 0, then Game Over
-	if(questions.length ==) {
+	if(questions.length == 0) {
 		
 		// will clear any HTML
 		questionForm.innerHTML = "";
@@ -142,7 +142,7 @@ function submitAnswer() {
 	
 	// if user gets correct answer and there are more questions, move to next questions
 	setTimeout(function() {
-		createQuestion()();
+		createQuestion();
 	} 2000);
 	
 	// stops functions if user is correct
