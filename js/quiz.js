@@ -86,10 +86,10 @@ function createQuestion() {
 		var answerEl = document.createElement("input");
 		
 		//node for text question
-	var answerText = document.createTextNode(questions[i].answers[r];
+	var answerText = document.createTextNode(questions[i].answers[r)];
 
 	answerDiv. appendChild(answerEl);
-	answerDiv.appendChild(answerChild(answerText);
+	answerDiv.appendChild(answerText);
 
 	// adding attributes
 	answerDiv.className = "questionWrap";
