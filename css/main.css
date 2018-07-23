@@ -7,3 +7,10 @@ button {
 	color: grey;
 	font: 12px;
 } 
+
+html, body {
+
+}
+body {
+  background-color: #373431;
+  color: #989390;
