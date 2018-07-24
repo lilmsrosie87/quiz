@@ -14,3 +14,31 @@ html, body {
 body {
   background-color: #373431;
   color: #989390;
+}
+
+{
+div {
+	font-size: 24px;
+}
+
+h1, h2 {
+	margin-bottom: 20px;
+}
+
+#questionnaire {
+	text-align: center;
+	width: 75%;
+	margin: 22% auto;
+}
+
+.right {
+	color: green;
+}
+
+.wrong {
+	color: red;
+}
+
+.questionWrap {
+	text-align: left;
+}
