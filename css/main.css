@@ -42,3 +42,9 @@ h1, h2 {
 .questionWrap {
 	text-align: left;
 }
+
+.btn-primary {
+	border-color: black;
+	background-color: grey;
+	color: red;
+}
