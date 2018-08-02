@@ -103,6 +103,21 @@ function createQuestion() {
 
 };
 
+ // creates start button
+var start  = document.createElement("button");
+// add attributes
+	submitBtn.className   = "button";
+	submitBtn.textContent = "Submit Answer";
+	submitBtn.type        = "button";
+	submitBtn.onclick     = submitAnswer;
+	
+	// add button to form group
+	questionForm.appendChild(button);
+};
+
+
+
+
 function submitAnswer() {
 	// gets input of all possible answers
 	var els = document.getElementByTagName("input");
