@@ -40,7 +40,7 @@ var questions = [
 
 
 	// this is the attribute used to start quiz (activates onlick() in questionnaire)
-	var questionnaire = getElementById("questionnaire");
+	var questionnaire = document.getElementById("questionnaire");
 
 	function startGame() {
 		// clears previous HTML
@@ -78,7 +78,7 @@ function createQuestion() {
 		formGroup.appendChild(questionEl);
 		
 		// will add formGroup to questionForm
-		questionaire.appendChild(formGroup);
+		questionnaire.appendChild(formGroup);
 		
 		// adding questions to be displayed in DOM
 	for ( var r = 0; r <questions[i].answers.length; r++) {
