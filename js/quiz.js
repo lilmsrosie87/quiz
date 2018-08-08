@@ -81,7 +81,7 @@ function createQuestion() {
 		questionnaire.appendChild(formGroup);
 		
 		// adding questions to be displayed in DOM
-	for ( var r = 0; r <questions[i].answers.length; r++) {
+	for (var r = 0; r < questions[i].answers.length; r++) {
 		var answerDiv = document.createElement("div");
 		var answerEl = document.createElement("input");
 		
