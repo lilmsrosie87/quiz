@@ -95,7 +95,7 @@ function createQuestion() {
 	answerDiv.className = "questionWrap";
 	answerEl.type = "radio";
 	answerEl.name = "radio" + [i];
-	answerEl.value = question[i].answers[j];
+	answerEl.value = questions[i].answers[r];
 
 	formGroup.appendChild(answerDiv);
 
