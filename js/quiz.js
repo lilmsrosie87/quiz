@@ -110,6 +110,7 @@ var submitBtn  = document.createElement("button");
 	submitBtn.textContent = "Submit Answer";
 	submitBtn.type        = "button";
 	submitBtn.onclick     = submitAnswer;
+// submit button is not working
 	
 	// add button to form group
 	questionnaire.appendChild(submitBtn);
