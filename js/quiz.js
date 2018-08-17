@@ -104,7 +104,7 @@ function createQuestion() {
 };
 
  // creates start button
-var start  = document.createElement("button");
+var submitBtn  = document.createElement("button");
 // add attributes
 	submitBtn.className   = "barbieTing";
 	submitBtn.textContent = "Submit Answer";
