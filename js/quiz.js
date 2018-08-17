@@ -112,7 +112,7 @@ var submitBtn  = document.createElement("button");
 	submitBtn.onclick     = submitAnswer;
 	
 	// add button to form group
-	questionForm.appendChild(button);
+	questionnaire.appendChild(submitBtn);
 };
 
 
