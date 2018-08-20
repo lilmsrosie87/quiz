@@ -121,7 +121,7 @@ var submitBtn  = document.createElement("button");
 
 function submitAnswer() {
 	// gets input of all possible answers
-	var els = document.getElementByTagName("input");
+	var els = document.getElementsByTagName("input");
 	
 	// loops through above inputs
 	for (var i = 0; i < els.length; i++) {
