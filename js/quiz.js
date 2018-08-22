@@ -169,8 +169,8 @@ function submitAnswer() {
 		
 	};
 	// confirms that user got incorrect answer
-	console.log("Incorrect answer");
-	
+	console.log("Incorrect answer", els[i]);
+
 	// finds parent of input element and adds class to it
 	for(var i = 0; i < els.length; i++) {
 		
