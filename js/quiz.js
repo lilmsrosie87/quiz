@@ -170,6 +170,37 @@ function submitAnswer() {
 	};
 	// confirms that user got incorrect answer
 	console.log("Incorrect answer", els[i]);
+	
+	
+	***************************************************************************
+	
+	
+	
+		// if (els[i].checked && els[i].value.trim() == questions[0].correct.trim()){
+		// need to work on adding "if/else" statement here for incorrect responses, but quiz will still continue
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	************************************************************************8
 
 	// finds parent of input element and adds class to it
 	for(var i = 0; i < els.length; i++) {
