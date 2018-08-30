@@ -169,9 +169,6 @@ function submitAnswer() {
 		
 	};
 	// confirms that user got incorrect answer
-	
-	
-
 	console.log("Incorrect answer", els[i]);
 	
 	
