@@ -138,19 +138,20 @@ function submitAnswer() {
 			
 			// find parent and add class of right
 	els[i].parentElement.className = "questionWrap right";
+
 	
 	// will check to see if there are any questions left. If 0, then Game Over
 	if(questions.length == 0) {
 		
 		// will clear any HTML
-		questionForm.innerHTML = "";
+		questionnaire.innerHTML = "";
 		
 		// updates questionForm style
-		questionForm.textAlign = "center";
-		questionForm.style.margin = "0 auto";
+		questionnaire.textAlign = "center";
+		questionnaire.style.margin = "0 auto";
 		
 		// displayed when quiz is over
-		questionForm.innerHTML = "<h1> Good Job!You've completed the quiz!</h1> + <br> + <img src= 'img/capitolSeal.jpg'>";
+		questionnaire.innerHTML = "<h1> Good Job!You've completed the quiz!</h1> + <br> + <img src= 'img/capitolSeal.jpg'>";
 		
 		// stops function when user wins
 		return;
