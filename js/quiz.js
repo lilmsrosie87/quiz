@@ -171,60 +171,38 @@ function submitAnswer() {
 	};
 	// confirms that user got incorrect answer
 	console.log("Incorrect answer", els[i]);
-	
-	
-	// ***************************************************************************
-	
-	
-	
-		 // if (els[i].checked && els[i].value.trim() == questions[0].correct.trim()){
-		// need to work on adding "if/else" statement here for incorrect responses, but quiz will still continue
-			
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	// ************************************************************************8
-
-	// finds parent of input element and adds class to it
-	for(var i = 0; i < els.length; i++) {
+		questions.shift();
 		
-		// finds current radio checked
-		if (els[i].checked) {
-			
-		// finds parent and adds 'wrong' .class
-		els[i].parentElement.className = "questionWrap wrong";
+		// find parent and add class of right
+	els[i].parentElement.className = "questionWrap right";
+	
+	// will check to see if there are any questions left. If 0, then Game Over
+	//if(questions.length == 0) {
 		
-		};
+		// will clear any HTML
+		questionnaire.innerHTML = "";
+		
+		// updates questionForm style
+		questionnaire.textAlign = "center";
+		questionnaire.style.margin = "0 auto";
+		
+		// displayed when quiz is over
+		questionnaire.innerHTML = "<h1> Good Job!You've completed the quiz!</h1> + <br> + <img src= 'img/capitolSeal.jpg'>";
+		
+		// stops function when user wins
+		return;
+		
 	};
-};
 	
-	
-	
+	// if user gets correct answer and there are more questions, move to next questions
+	setTimeout(function() {
+		createQuestion();
+	}, 2000);
+
 		
-		
-		
+	};
 	
 	
-			
-			
 	
 	
 	
