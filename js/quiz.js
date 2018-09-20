@@ -136,6 +136,12 @@ function submitAnswer() {
 			// remove current question from array
 			questions.shift();
 			
+		 }else {
+		//confirms that user got wrong answer
+			console.log("Incorrect Answer", els[i]);
+			//removes current question from array
+			questions.shift();
+			
 			// find parent and add class of right
 	els[i].parentElement.className = "questionWrap right";
 
@@ -201,7 +207,7 @@ function submitAnswer() {
 
 		
 	};
-	
+};	
 	
 	
 	
