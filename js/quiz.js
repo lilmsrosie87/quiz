@@ -137,11 +137,9 @@ function submitAnswer() {
 			els[i].parentElement.className = "questionWrap right";
 	
 		// if/else statement added here 10/2
-		} else {
-			
-			console.log('Incorrect answer', els[i]);
-			questions.shift ();
-		
+	// } else {
+			// console.log('Incorrect answer');
+					
 	
 	
 	
@@ -172,13 +170,13 @@ function submitAnswer() {
 	return;
 	
 		};
+	
 		
 	};
 	
 	// confirm that user got incorret answer
-	
-	// line below displays incorrect answer in console
-	// console.log("Incorrect Answer");
+	 console.log("Incorrect Answer");
+	 questions.shift();
 	
 	// find the parent or input element and add class of wrong
 	for (var i = 0; i < els.length; i++) {
