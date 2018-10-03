@@ -134,7 +134,15 @@ function submitAnswer() {
 			questions.shift();
 			
 			// find parent and add class of right
-	els[i].parentElement.className = "questionWrap right";
+			els[i].parentElement.className = "questionWrap right";
+	
+		// if/else statement added here 10/2
+		} else {
+			
+			console.log('Incorrect answer', els[i]);
+			questions.shift ();
+		
+	
 	
 	
 	// will check to see if there are any questions left. If 0, then Game Over
@@ -168,7 +176,9 @@ function submitAnswer() {
 	};
 	
 	// confirm that user got incorret answer
-	console.log("Incorrect Answer");
+	
+	// line below displays incorrect answer in console
+	// console.log("Incorrect Answer");
 	
 	// find the parent or input element and add class of wrong
 	for (var i = 0; i < els.length; i++) {
@@ -177,6 +187,16 @@ function submitAnswer() {
 			// find parent and add wrong class
 			els[i].parentElement.className = "questionWrap wrong";
 		};
+		
+	// if user gets incorrect answer and there are more questions, move to next questions
+	setTimeout(function() {
+		createQuestion();
+	}, 2000);
+	
+	// stops functions if user is correct
+	return;
+	
+		
 	};
 };
 	
