@@ -8,9 +8,6 @@ button {
 	font: 12px;
 } 
 
-html, body {
-
-}
 body {
   background-color: #373431;
   color: #989390;
@@ -23,6 +20,7 @@ div {
 
 h1, h2 {
 	margin-bottom: 20px;
+	text-align: center;
 }
 
 #questionnaire {

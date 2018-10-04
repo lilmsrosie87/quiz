@@ -1,3 +1,9 @@
+$(document).ready(function() {
+	$(".start").onclick(function() {
+		$("h1").hide();
+	});
+});
+
 // questions for quiz (week 10)
 var questions = [
 	{
