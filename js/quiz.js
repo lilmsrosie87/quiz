@@ -6,6 +6,9 @@
 // });
 
 // questions for quiz (week 10)
+
+
+// looks like the issue with incorrect answer is the els[i] which only give correct answer as option. This explains why function didn't work before 2/7/2019
 var questions = [
 	{
 		question: "What district did Katnis Everden represent at the 74th Hunger Games?",
